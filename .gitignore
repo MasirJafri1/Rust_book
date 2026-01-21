@@ -1,0 +1,50 @@
+# =========================
+# Rust build output
+# =========================
+
+# Cargo / rustc build dirs (any level)
+target/
+**/target/
+
+# Flycheck / rust-analyzer
+**/flycheck*
+.rust-analyzer/
+
+# Rust temporary / backup files
+**/*.rs.bk
+
+# =========================
+# Windows binaries & debug symbols
+# =========================
+
+*.exe
+*.exe~
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# =========================
+# IDEs & Editors
+# =========================
+
+.vs/
+.vscode/
+.idea/
+
+# =========================
+# OS junk
+# =========================
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# =========================
+# Logs & temp files
+# =========================
+
+*.log
+*.tmp
+*.swp
+*.swo
